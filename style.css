@@ -1,0 +1,138 @@
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+body {
+    background: rgb(218, 213, 218);
+}
+
+.container {
+    width: 1100px;
+    height: 600px;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+
+.cabecalho h1 {
+    color: rgb(104, 58, 150);
+}
+  
+.cabecalho img {
+    width: 120px;
+    height: 120px;
+}
+
+.container-input {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+.container-input .input {
+    width: 400px;
+    height: 330px;
+}
+
+.container-input .input p {
+    color: rgb(51, 51, 53);
+    margin-left: 10px;
+}
+
+#input-texto {
+    width: 500px;
+    height: 330px;
+    font-size: 20px;
+    color: blueviolet;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    padding: 10px;
+    outline: 0;
+    text-transform: lowercase;
+}
+
+#output {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(104, 58, 150);
+    border-radius: 20px;
+    width: 500px;
+    height: 420px;
+    margin-right: 3%;
+}
+
+#output img {
+    max-width: 380px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    align-items: center;
+    margin-top: 4%;
+    margin-left: 8%;
+    opacity: 0.5;
+}
+
+#output h2 {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(104, 58, 150);
+}
+
+#output span {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgb(51, 51, 53);
+}
+
+.container-btn button {
+    background-color: rgb(104, 58, 150);
+    border: 2px solid rgb(104, 58, 150);
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(241, 235, 247);
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+
+.btn-copiar{
+    background-color: rgb(104, 58, 150);
+    border: 2px solid rgb(104, 58, 150);
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(241, 235, 247);
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+
+}
+
+.container-btn button:hover {
+    border: 2px solid rgb(92, 12, 92);
+    transition: 0.5s all;
+
+}
+
+footer {
+    margin: 90px 50px;
+    color: rgb(51, 51, 53);
+    text-align: center;
+    
+}
+
+
+

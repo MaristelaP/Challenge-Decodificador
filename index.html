@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Decodificador</title>
+    <link rel="stylesheet" href="link rel="preconnect href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!--caixa do conteúdo principal-->
+    <main class="container">
+
+        <header class="cabecalho">
+            <img src="img/cadeadochallenge.lnk" alt="imagem de um cadeado escrito em inglês secure">
+            <h1>Codifique suas mensagens com segurança</h1>
+        </header>
+
+        <div class="container-input">
+            <!--aqui a mensagem será digitada-->
+            <div class="input">
+                <textarea id="input-texto" placeholder="insira o texto aqui"></textarea>
+                <p>&#10069; apenas letras minúsculas e sem acento</p>
+                <!--aqui os botões-->
+                <div class="container-btn">
+                    <div class="buttons">
+                        <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                        <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+                    </div>
+                </div>
+
+            </div>
+        
+            <!--aqui onde aparece o texto codificado-->
+            <div id="output">
+                <img src="img/lupa.jpg" alt="boneco segurando uma lupa">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <span>Digite um texto que você deseje criptografar ou descriptografar.</span>
+
+            </div>
+            
+        </div>    
+    </main>
+
+    <footer>Challenge Programa ONE - Alura</footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
