@@ -135,11 +135,17 @@ footer {
 }
 
 @media screen and (max-width:480px) {
+
+    
+   .container{
+    width: auto;
+    }
    .container-input {
     display: block;
    }
    #output {
-    margin-top: 13%;
+    margin-top: 28%;    
    }
+   
 }
 
