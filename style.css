@@ -136,16 +136,32 @@ footer {
 
 @media screen and (max-width:480px) {
 
-    
-   .container{
-    width: auto;
+    .cabecalho {
+        width: auto;
+        
     }
-   .container-input {
-    display: block;
-   }
-   #output {
-    margin-top: 28%;    
-   }
+
+    .container-input {
+        display: block;
+        justify-content: center;
+    }
+
+    #output {
+        width: 330px;
+        height: auto;
+        padding-bottom: 8px;
+        margin-top: 130px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    footer {
+        display: none;
+    }
+    
+  
+   
    
 }
 
